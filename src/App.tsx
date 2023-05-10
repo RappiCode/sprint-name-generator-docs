@@ -14,7 +14,7 @@ function App() {
         <div className="card">
           <div className="card-header">Installation</div>
           <div className="text">Install the Sprint Name Generator for JIRA directly inside your JIRA Cloud
-            installation
+            installation.
           </div>
         </div>
         <div className="card">
