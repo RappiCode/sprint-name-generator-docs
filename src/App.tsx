@@ -12,7 +12,7 @@ function App() {
         <div className="sub-header">Sprint Name Generator for JIRA</div>
         <div className="card">
           <div className="header">Installation</div>
-          <div className="text">Install the Sprint Name Generator for JIRA directly inside JIRA Cloud</div>
+          <div className="text">Install the Sprint Name Generator for JIRA directly inside your JIRA Cloud installation</div>
         </div>
         <div className="card">
           <div className="header">Start The App</div>
