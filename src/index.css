@@ -18,11 +18,13 @@ body {
   text-transform: upercase;
   color: #2C6281;
   max-width: 800px;
+  padding-top: 2rem;
 }
 
 .sub-header {
   font-size: 2rem;
   padding-bottom: 2rem;
+  padding-top: .6rem;
   max-width: 800px;
 }
 
@@ -30,28 +32,28 @@ body {
   background: white;
   width: 50vw;
   max-width: 800px;
+}
 
-  .header {
-    color: #093143;
-    font-size: 1.5rem;
-    padding-bottom: 1.5rem;
-  }
+.card-header {
+  color: #093143;
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+}
 
-  .flex-row {
-    display: flex;
-    gap: 1rem;
-  }
+.flex-row {
+  display: flex;
+  gap: 1rem;
+}
 
-  .text {
-    color: #093143;
+.text {
+  color: #093143;
+}
 
-    .key {
-      background: #efefef;
-      padding: 5px;
-    }
-  }
+.key {
+  background: #efefef;
+  padding: 5px;
+}
 
-  .tspace {
-    margin-top: 1rem;
-  }
+.tspace {
+  padding-top: 1rem;
 }
