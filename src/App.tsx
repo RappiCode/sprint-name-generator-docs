@@ -31,7 +31,7 @@ function App() {
         </div>
         <div className="card">
           <div className="card-header">Let's Roll</div>
-          <div className="text tspace">
+          <div className="text">
             You can generate new sprint names by clicking on the reload button or by pressing <span
             className="key">enter</span> or <span className="key">space</span>.
           </div>
