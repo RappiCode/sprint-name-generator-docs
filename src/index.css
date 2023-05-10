@@ -3,6 +3,7 @@ body {
   background: #093143;
   font-family: Inconsolata, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5rem;
+  font-size: 16px;
 }
 
 .main {

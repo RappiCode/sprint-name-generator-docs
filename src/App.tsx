@@ -22,11 +22,13 @@ function App() {
           <div className="text">
             <img src={appBar} alt="Start the app over the Apps menu" width="70%"/>
           </div>
-          <div className="text tspace flex-row">
-            <img src={menuItem} alt="menu item" width="30%"></img>
-            <div style={{textAlign: 'left'}}>
+          <div className="text tspace">
+            <div>
               You can start the Sprint Name Generator over the Apps menu inside JIRA.
             </div>
+          </div>
+          <div className="text tspace">
+            <img src={menuItem} alt="menu item" width="30%"></img>
           </div>
         </div>
         <div className="card">
