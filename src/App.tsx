@@ -1,6 +1,7 @@
 import './App.css'
 import logo from './assets/logo-white.png'
 import appBar from './assets/app-bar.png'
+import menuItem from './assets/menu-item.png'
 
 function App() {
   return (
@@ -18,8 +19,11 @@ function App() {
           <div className="text">
             <img src={appBar} alt="Start the app over the Apps menu" width="70%"/>
           </div>
-          <div className="text tspace">
-            You can start the Sprint Name Generator over the Apps menu inside JIRA.
+          <div className="text tspace flex-row">
+            <img src={menuItem} alt="menu item" width="30%"></img>
+            <div style={{textAlign: 'left'}}>
+              You can start the Sprint Name Generator over the Apps menu inside JIRA.
+            </div>
           </div>
         </div>
         <div className="card">
