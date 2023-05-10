@@ -1,5 +1,5 @@
 import './App.css'
-import logo from './assets/logo-white.png'
+import logo from './assets/logo-animated.svg'
 import appBar from './assets/app-bar.png'
 import menuItem from './assets/menu-item.png'
 import {Video} from "./Video";
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div className="main">
-        <img src={logo} alt="logo" width="15%"></img>
+        <object type="image/svg+xml" data={logo} width="200rem" height="180rem"></object>
         <div className="header">Documentation</div>
         <div className="sub-header">Sprint Name Generator for JIRA</div>
         <div className="card">
