@@ -2,6 +2,7 @@ import './App.css'
 import logo from './assets/logo-white.png'
 import appBar from './assets/app-bar.png'
 import menuItem from './assets/menu-item.png'
+import {Video} from "./Video";
 
 function App() {
   return (
@@ -31,8 +32,11 @@ function App() {
         <div className="card">
           <div className="header">Let's roll</div>
           <div className="text tspace">
-            You can generate new sprint names by clicking on the reload button or pressing <span
+            You can generate new sprint names by clicking on the reload button or by pressing <span
             className="key">enter</span> or <span className="key">space</span>.
+          </div>
+          <div className="tspace">
+            <Video />
           </div>
         </div>
       </div>
