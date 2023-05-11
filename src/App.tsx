@@ -1,5 +1,4 @@
 import logo from './assets/logo-animated.svg'
-import React from "react";
 import appBar from './assets/app-bar.png'
 import appBarMobile from './assets/app-bar-mobile.png'
 import menuItem from './assets/menu-item.png'
