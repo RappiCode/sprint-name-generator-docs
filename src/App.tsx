@@ -41,6 +41,12 @@ function App() {
             <Video />
           </div>
         </div>
+        <div className="card">
+          <div className="card-header">Any Questions?</div>
+          <div className="text">
+            If you have any questions, feel free to contact us by e-mail at <a href="mailto:sng-support@rappicode.ch">sng-support@rappicode.ch</a>.
+          </div>
+        </div>
       </div>
     </>
   )
