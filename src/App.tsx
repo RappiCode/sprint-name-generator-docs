@@ -1,6 +1,7 @@
 import './App.css'
 import logo from './assets/logo-animated.svg'
 import appBar from './assets/app-bar.png'
+import appBarMobile from './assets/app-bar-mobile.png'
 import menuItem from './assets/menu-item.png'
 import {Video} from "./Video";
 
@@ -19,8 +20,9 @@ function App() {
         </div>
         <div className="card">
           <div className="card-header">Start The App</div>
-          <div className="text">
-            <img src={appBar} alt="Start the app over the Apps menu" width="70%"/>
+          <div className="text flex-center">
+            <img src={appBar} alt="Start the app over the Apps menu" className="app-bar"/>
+            <img src={appBarMobile} alt="Start the app over the Apps menu" className="app-bar-mobile"/>
           </div>
           <div className="text tspace">
             <div>
