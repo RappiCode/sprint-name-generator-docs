@@ -1,4 +1,3 @@
-import './App.css'
 import logo from './assets/logo-animated.svg'
 import appBar from './assets/app-bar.png'
 import appBarMobile from './assets/app-bar-mobile.png'
