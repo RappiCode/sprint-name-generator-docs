@@ -11,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Documentation/>}/>
         <Route path="/privacy" element={<Privacy />}/>
+        <Route path="/terms" element={<Terms />}/>
       </Routes>
     </>
   )
@@ -27,6 +28,22 @@ function Privacy() {
         <div className="text">
           The Sprint Name Generator does not collect <strong>any</strong> data.
           We do not read or store data inside JIRA nor do we collect any analytics data.
+        </div>
+      </div>
+    </div>
+  </>;
+}
+
+function Terms() {
+  return <>
+    <div className="main">
+      <object type="image/svg+xml" data={logo} width="200rem" height="180rem"></object>
+      <div className="header">Terms &amp; Conditions</div>
+      <div className="sub-header">Sprint Name Generator for JIRA</div>
+      <div className="card">
+        <div className="card-header">Terms &amp; Conditions</div>
+        <div className="text">
+          The software can be installed and used in your Jira Cloud installation without limitations.
         </div>
       </div>
     </div>
