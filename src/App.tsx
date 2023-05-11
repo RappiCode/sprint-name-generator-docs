@@ -29,7 +29,7 @@ function App() {
             </div>
           </div>
           <div className="text tspace">
-            <img src={menuItem} alt="menu item" width="30%"></img>
+            <img src={menuItem} alt="menu item" style={{width: 'min(300px, 100%)'}}></img>
           </div>
         </div>
         <div className="card">
