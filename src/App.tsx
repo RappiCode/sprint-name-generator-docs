@@ -91,7 +91,7 @@ function Documentation() {
         <div className="card-header">Any Questions?</div>
         <div className="text">
           If you have any questions, feel free to contact us by e-mail at <a
-          href="mailto:sng-support@rappicode.ch">sng-support@rappicode.ch</a>.
+          href="mailto:sng-support@rappicode.com">sng-support@rappicode.com</a>.
         </div>
       </div>
     </div>
